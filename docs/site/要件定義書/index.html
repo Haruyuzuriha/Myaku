@@ -1,0 +1,1268 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.example.com/%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E6%9B%B8/">
+      
+      
+        <link rel="prev" href="./..">
+      
+      
+        <link rel="next" href="../%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%96%B9%E5%BC%8F%E8%A8%AD%E8%A8%88%E6%9B%B8/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.62">
+    
+    
+      
+        <title>要件定義書 - プロジェクト名をここに</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../assets/stylesheets/modern/main.ce62732f.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../assets/stylesheets/modern/palette.812a03bb.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="ナビゲーション"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="./.." title="プロジェクト名をここに" class="md-header__button md-logo" aria-label="プロジェクト名をここに" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="ナビゲーション">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            プロジェクト名をここに
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              要件定義書
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun-moon" viewBox="0 0 24 24"><path d="M12 2v2M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715M16 12a4 4 0 0 0-4-4M19 5l-1.256 1.256M20 12h2"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="検索">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="検索">
+  <button type="button" class="md-search__button">
+    検索
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="./.." title="プロジェクト名をここに" class="md-nav__button md-logo" aria-label="プロジェクト名をここに" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    プロジェクト名をここに
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="./.." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-rocket" viewBox="0 0 24 24"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  要件定義書
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  要件定義書
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 表紙・改訂履歴
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. プロジェクト概要
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. 背景・目的
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 背景・目的">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 背景
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 目的
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. 対象ユーザー・ステークホルダー
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 対象ユーザー・ステークホルダー">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.1 対象ユーザー
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.2 ステークホルダー
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. 用語定義
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. 機能要件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. 非機能要件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        8. スコープ外
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        9. 制約条件・前提条件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        10. 成功基準・完了の定義
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  システム設計
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  システム設計
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%96%B9%E5%BC%8F%E8%A8%AD%E8%A8%88%E6%9B%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  システム方式設計書
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 表紙・改訂履歴
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. プロジェクト概要
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. 背景・目的
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 背景・目的">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.1 背景
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3.2 目的
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. 対象ユーザー・ステークホルダー
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. 対象ユーザー・ステークホルダー">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.1 対象ユーザー
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4.2 ステークホルダー
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. 用語定義
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. 機能要件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. 非機能要件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        8. スコープ外
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        9. 制約条件・前提条件
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        10. 成功基準・完了の定義
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="_1">要件定義書<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h2 id="1">1. 表紙・改訂履歴<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>プロジェクト名</td>
+<td>(未定)</td>
+</tr>
+<tr>
+<td>バージョン</td>
+<td>v0.6</td>
+</tr>
+<tr>
+<td>作成日</td>
+<td>2026-09-14</td>
+</tr>
+<tr>
+<td>作成者</td>
+<td>春霞</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>改訂日</th>
+<th>バージョン</th>
+<th>変更内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2026-09-14</td>
+<td>v0.1</td>
+<td>初版作成。</td>
+</tr>
+<tr>
+<td>2026-09-15</td>
+<td>v0.2</td>
+<td>NetFlow/IPFIX等の他社エンタープライズ技術を考慮に入れ、本プロジェクトがそれらをどう扱うかを全体を通じて明記した。</td>
+</tr>
+<tr>
+<td>2026-09-15</td>
+<td>v0.3</td>
+<td>シニアレビューを受け、F-04〜F-06を相関キーで結び付け、F-09にRCAレポート構造を明記。診断プロセスの可視性(explainability)をN-15として非機能要件に追加</td>
+</tr>
+<tr>
+<td>2026-09-15</td>
+<td>v0.4</td>
+<td>データ保持・プルーニングポリシー(N-16)とローカルアクセス制御(N-17)を非機能要件に追加。</td>
+</tr>
+<tr>
+<td>2026-09-15</td>
+<td>v0.5</td>
+<td>アラート・可視化・運用ワークフロー・レポート生成・履歴調査UIをスコープ外に追加。バックアップ/アップグレード方針を9章に追加。10章の完了基準が過大な主張(「本ツールのみで運用完結」)にならないよう修正。</td>
+</tr>
+<tr>
+<td>2026-09-17</td>
+<td>v0.6</td>
+<td>内容の全体を整えた。</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="2">2. プロジェクト概要<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<p>企業ネットワークの内部インフラを対象としたヘルスチェックツールであり、内部インフラの状態把握を核心価値とする。決定論的な根本原因分析(RCA)を差別化要素とし、完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシーという4原則のもとで設計される。</p>
+<hr />
+<h2 id="3">3. 背景・目的<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<h3 id="31">3.1 背景<a class="headerlink" href="#31" title="Permanent link">&para;</a></h3>
+<p>既存の有料競合(PRTG, SolarWinds, Kentik, Datadog, Zabbix等)は高機能だが、クラウド運用やベンダーロックインを前提とすることが多い。一方、個人開発・一人保守という体制では、書き込み機能やクラウドサービス運用に伴う責任(インシデント対応、SLA、データ預託)を個人で負うことは大きな負債になる。この制約下でもなお「エンタープライズ品質」と呼べるツールを成立させることが本プロジェクトの出発点である。</p>
+<h3 id="32">3.2 目的<a class="headerlink" href="#32" title="Permanent link">&para;</a></h3>
+<ul>
+<li>内部インフラの状態を、外部からのドメイン監視だけでは得られない粒度で把握できるようにする</li>
+<li>決定論的なルールベースの根本原因分析により、AIに依存せず「即座に根本原因がわかる」という差別化を実現する</li>
+<li>完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシー の原則により、一人開発者が現実的に負えるリスクの範囲内でエンタープライズ向け品質のツールを提供する</li>
+<li>日本企業のネットワーク/インフラ担当者を最初のターゲット市場とし、日本語ローカライゼーションを最優先事項として扱う</li>
+</ul>
+<hr />
+<h2 id="4">4. 対象ユーザー・ステークホルダー<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<h3 id="41">4.1 対象ユーザー<a class="headerlink" href="#41" title="Permanent link">&para;</a></h3>
+<p>日本企業のネットワーク/インフラ担当者。内部インフラの定期ヘルスチェック、障害発生時の一次切り分けを行いたいユーザー。</p>
+<h3 id="42">4.2 ステークホルダー<a class="headerlink" href="#42" title="Permanent link">&para;</a></h3>
+<p>個人開発(オープンソース)プロジェクトのため、開発者自身が唯一のステークホルダーである。ビジネス化は想定していない。</p>
+<hr />
+<h2 id="5">5. 用語定義<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>用語</th>
+<th>定義</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>コアアーキテクチャ原則</td>
+<td>完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシー の4原則。プロジェクトの初期段階で明文化され、以降のすべての機能・仕様を縛る拘束力を持つ</td>
+</tr>
+<tr>
+<td>完全ローカル</td>
+<td>保守者が運用するバックエンドを持たず、ユーザー自身のマシン/サーバー上で動作すること</td>
+</tr>
+<tr>
+<td>クラウドサービス不要</td>
+<td>保守者がクラウドインフラの認証情報を一切持たないこと。クラウドを読む場合もユーザー自身のアカウント・認証情報のみを用いる</td>
+</tr>
+<tr>
+<td>私物利用の方式</td>
+<td>外部依存(クラウドアカウント、AIモデル/API等)はすべてユーザー自身の選択・アカウントとし、コスト・アクセス・精度リスクをアプリ側ではなくユーザー側が負うこと</td>
+</tr>
+<tr>
+<td>読み取り専用ポリシー</td>
+<td>アプリが観測・報告のみを行い、ユーザーのインフラに変更を実行しないこと(唯一の例外であるリメディエーション機能も推奨のみに限定)</td>
+</tr>
+<tr>
+<td>決定論的RCA(根本原因分析)</td>
+<td>AIに依存せず、グラフ/ルールベースで時系列データと関係性データから根本原因を特定する仕組み。既知パターンに一致しない場合の「原因未特定」も設計上の正式な結果状態として扱う</td>
+</tr>
+<tr>
+<td>ワークスペース概念</td>
+<td>マルチテナント/RBAC(複数チーム・組織が1つのインスタンスをアクセス制御付きで共有する仕組み)は現時点では実装しない。ただし、後から追加する際に内部データ構造の作り直しが必要にならないよう、「どのスキャン実行記録・結果がどのチーム/組織に属するか」を区別できる境界を、データ設計の段階からあらかじめ持たせておく方針とする。v1では単一ワークスペース固定(実質1テナント)で運用し、ワークスペースを切り替えるUIやアクセス制御機能自体は提供しない</td>
+</tr>
+<tr>
+<td>相関キー</td>
+<td>対象識別子・タイムスタンプ・ネットワークセグメント等、複数のチェック結果(F-03〜F-06)を横断して関連付けるための共通属性群。個々のチェックが孤立した結果を返すのではなく、同一対象・近接時間帯で発生した複数の事象をRCA(F-09)が関係づけて推論できるようにするためのもの</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6">6. 機能要件<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>機能名</th>
+<th>概要</th>
+<th>優先度</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>F-01</td>
+<td>日本語ローカライゼーション</td>
+<td>UI/エラーメッセージ/ドキュメントの日本語対応。最優先の製品作業項目</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-02</td>
+<td>署名付きリリース体制</td>
+<td>初期段階から署名付きリリースを確立し、後付けにしない</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-03</td>
+<td>ICMP/SNMPポーリング</td>
+<td>基本的な死活監視・SNMPによる状態取得。SNMPはv1とv3をユーザーが選択できる方式とする(v1: レガシーインフラ向け、v3: 非レガシーインフラ向け)</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-04</td>
+<td>DNS検証</td>
+<td>設定されたホスト名/レコードを設定されたDNSサーバーに対して問い合わせ、タイムアウト付きで検証する。無応答(タイムアウト)/NXDOMAIN/SERVFAIL/解決結果が期待値と不一致、を区別して結果を出す。結果はF-05/F-06と共通の相関キー(対象識別子・タイムスタンプ・ネットワークセグメント等)で記録し、RCA(F-09)が横断的な関係性を推論できるようにする</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-05</td>
+<td>DHCP検証</td>
+<td>DHCPDISCOVERを送信し、タイムアウト以内にDHCPOFFERが返るかを確認する生存確認。リースプール監視(枯渇・使用率追跡)は対象外。結果はF-04/F-06と共通の相関キーで記録する</td>
+<td>推奨</td>
+</tr>
+<tr>
+<td>F-06</td>
+<td>NTP検証</td>
+<td>設定されたNTPサーバーに問い合わせてオフセットを測定し、設定可能なドリフト閾値(デフォルト100ms)と比較する。閾値超過と無応答(サーバー到達不能)は別の結果として扱う。結果はF-04/F-05と共通の相関キーで記録する</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-07</td>
+<td>構造化出力(JSON/Protobuf)</td>
+<td>チェック結果を構造化形式で出力する</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-08</td>
+<td>時系列データ書き込み抽象化</td>
+<td>Micrometer経由で時系列データを書き込み、特定バックエンドに直結させない</td>
+<td>必須</td>
+</tr>
+<tr>
+<td>F-09</td>
+<td>決定論的根本原因分析(RCA)</td>
+<td>グラフ/ルールベースのRCA。追加専用のカスタムルールで組み込みルールを上書きしない設計。診断結果は次を含む構造化レポートとして出力する:(1)参照した観測データ(該当する各チェックの結果と相関キー)、(2)検討した関係性(どの観測同士を相関キーで結び付けたか)、(3)結論を導いたルール(該当ルールIDと条件)。既知パターンに一致しない場合は「原因未特定」とし、検討した観測・関係性と、除外した既知パターンの一覧を併せて示す</td>
+<td>推奨(初期リリース安定後)</td>
+</tr>
+<tr>
+<td>F-10</td>
+<td>時系列データ読み出し抽象化</td>
+<td>InfluxQL/PromQL等を直接叩かず、内部クエリ抽象化層経由で読み出す(F-08と対になる読み出し側の抽象化)</td>
+<td>推奨(F-09と同時期)</td>
+</tr>
+<tr>
+<td>F-11</td>
+<td>スキャンスケジューリングモデル</td>
+<td>ハイブリッド方式。単一のスケジューリングエンジンが、常駐デーモンモード(設定可能な間隔での継続ポーリング)とone-shotモード(<code>--once</code>等のフラグによる単発実行、手動/外部cron起動向け)の両方を提供する。両モードとも同一の時系列ストアに書き込む</td>
+<td>必須</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7">7. 非機能要件<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>分類</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>N-01</td>
+<td>プラットフォーム</td>
+<td>本書時点では未確定。初期段階はUI形態を特定せず、サーバー/ヘッドレス的な運用を想定。JavaFX UIを前提としない柔軟なデプロイ(ヘッドレス/サーバーモード)は将来的な検討対象とする</td>
+</tr>
+<tr>
+<td>N-02</td>
+<td>実行環境の原則</td>
+<td>コアアーキテクチャ原則に従うこと。クラウドテレメトリ取り込み(将来対応)も、デフォルトでは無効とし、ユーザーが明示的に認証情報を設定した場合のみ有効になること</td>
+</tr>
+<tr>
+<td>N-03</td>
+<td>実装言語・技術スタック</td>
+<td>未定</td>
+</tr>
+<tr>
+<td>N-04</td>
+<td>開発体制</td>
+<td>一人での開発。オープンソースとして公開する</td>
+</tr>
+<tr>
+<td>N-05</td>
+<td>データベース・時系列ストレージ</td>
+<td>TimescaleDBを主要(デフォルト)バックエンドとして要求する。特定バックエンドへの直結は避けるpluggable設計とし、マルチバックエンド対応を公に謳う前に、最低2つのバックエンド(TimescaleDB含む)で書き込み・読み出し両方の抽象化層を検証すること。TimescaleDBはユーザー自身の環境での構築が前提となるため、セットアップ手順をドキュメントで明示すること(zero-configではない旨を明記)</td>
+</tr>
+<tr>
+<td>N-06</td>
+<td>ローカライゼーション</td>
+<td>日本語UI/エラーメッセージ/ドキュメントを最優先実装する(N-01と関連)</td>
+</tr>
+<tr>
+<td>N-07</td>
+<td>保守性・拡張性</td>
+<td>「どのスキャン実行記録・結果がどのチーム/組織に属するか」を区別できる境界を、データ設計の段階からあらかじめ持たせ、将来のマルチテナント/RBAC追加に備える。v1では単一ワークスペース固定で運用し、ワークスペース切り替えUI/アクセス制御は実装しない(詳細は5章「workspace概念」参照)</td>
+</tr>
+<tr>
+<td>N-08</td>
+<td>認証情報・シークレット管理</td>
+<td>SNMPコミュニティ文字列・DB接続情報等はOSネイティブのキーチェーン/認証情報ストアへの保存を優先し、対応しない環境では暗号化ローカルファイルにフォールバックする。平文設定ファイルへの保存は行わない</td>
+</tr>
+<tr>
+<td>N-09</td>
+<td>パッケージング</td>
+<td>署名付きJAR形式で配布する(JVM前提)。ネイティブバイナリ化は本書時点では対象外</td>
+</tr>
+<tr>
+<td>N-10</td>
+<td>エラーハンドリング・ロギング</td>
+<td>対象到達不能時は例外を握りつぶさず、構造化された「到達不能」結果として返す。ログはレベル・タイムスタンプ・対象・チェック種別を含む構造化形式とする</td>
+</tr>
+<tr>
+<td>N-11</td>
+<td>デーモンライフサイクル</td>
+<td>常駐デーモンモード(F-11)は正常な起動・停止をサポートし、長期稼働時のログ肥大化を防ぐログローテーションを備えること</td>
+</tr>
+<tr>
+<td>N-12</td>
+<td>性能・スケール目標</td>
+<td>初期目標として数百ホスト規模・設定可能なポーリング間隔・低いアイドル時リソースフットプリントを暫定基準とする。実測ベンチマークにより本書時点の数値は今後見直す</td>
+</tr>
+<tr>
+<td>N-13</td>
+<td>対応OS</td>
+<td>Linux・Windowsを公式サポート対象(テスト・バグ報告受付の対象)とする。macOS版もリリースするが、公式テスト対象外とする</td>
+</tr>
+<tr>
+<td>N-14</td>
+<td>ingestion-source抽象化</td>
+<td>チェック実行(F-03〜F-06等)のデータ収集経路を抽象化する。現時点ではポーリング方式(F-11)のみを実装するが、将来streaming telemetry等のpush型収集を追加する際に、既存のスケジューリング/収集の仕組みを作り直さずに拡張できるアーキテクチャとする</td>
+</tr>
+<tr>
+<td>N-15</td>
+<td>診断プロセスの可視性</td>
+<td>RCA(F-09)の結論(または「原因未特定」の判定)に至るまでの過程を、エンジニアが検証可能な形でユーザーに提示すること。具体的には、参照した観測データ・相関キーで結び付けた関係性・適用されたルールを黙って隠さず出力すること。これは本プロジェクトの差別化要素(観測から結論までを追跡できる、決定論的で説明可能な診断)を成立させる上で必須の要件とする</td>
+</tr>
+<tr>
+<td>N-16</td>
+<td>データ保持・プルーニングポリシー</td>
+<td>時系列データの保持期間を設定可能にし、デフォルト保持期間(暫定90日)を超えたデータは自動的にプルーニングする。常駐デーモンモード(F-11/N-11)による無期限蓄積がストレージ肥大化やN-12の性能目標を損なうことを防ぐ</td>
+</tr>
+<tr>
+<td>N-17</td>
+<td>ローカルアクセス制御の前提</td>
+<td>v1はマルチテナント/RBACを実装しないことに伴い、単一の信頼されたローカルユーザーが直接操作することを前提とし、認証機構は設けない。将来、常駐デーモンモード(F-11)がネットワーク越しにアクセス可能なインターフェース(API/Webダッシュボード等)を提供する場合は、その時点で認証機構を追加できる設計上の余地を残す</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="8">8. スコープ外<a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
+<ul>
+<li>モバイルアプリ版・Webブラウザ版としての提供(将来Webダッシュボードは検討対象だが自己ホスト前提)</li>
+<li>保守者が運用するクラウドサービス・バックエンド(コアアーキテクチャ原則により対象外)</li>
+<li>リメディエーションの自動実行(読み取り専用ポリシーにより、設定ドリフト検知は推奨のみに限定。人間による実行判断を必須とする)</li>
+<li>分散アーキテクチャ(実需要が確認されるまで着手しない)</li>
+<li>マルチテナント/RBAC(現時点では未実装。データモデルのみワークスペース概念に開いておく)</li>
+<li>ビジネス化・収益化(想定しない)</li>
+<li>SNMP v2c対応(v1・v3のみサポートし、v2cは当面対象外とする。v1・v3が安定した後、将来的な追加を検討する)</li>
+<li>NetFlow/IPFIX/sFlow等の伝統的フローエクスポートプロトコル対応(v1のポーリングベースのチェックとは異なる収集方式が必要なため、将来検討事項として保留する。放棄ではない)</li>
+<li>streaming telemetry(gNMI等のpush型テレメトリ)対応(v1はポーリングベースの収集モデル(F-11)を採用。N-14のingestion-source抽象化を前提に、将来の追加を検討する)</li>
+<li>設定変更と障害イベントの相関分析(M10相当の設定ドリフト検知とは別軸の機能であり、v1では対応しない。将来検討事項とする)</li>
+<li>アプリケーション層の相関分析やエンドユーザー体感品質の計測はAPM/RUM領域に踏み込むものであり、「内部インフラのヘルスチェック」という本ツールの核心価値とは異なる製品カテゴリになる。v1のスコープ外とし、方向性は将来別途検討する</li>
+<li>アラート・通知機能(メール/Webhook/Slack等への能動的な通知)(v1では対応しない。障害検知後に人間へ知らせる経路が別途必要になるため、将来検討事項とする)</li>
+<li>可視化・ダッシュボードUI(v1はF-07の構造化出力とF-08/F-10の時系列蓄積までを提供し、人間が見るためのグラフ描画・ダッシュボードは対象外とする。外部可視化ツール(Grafana等)との連携は将来検討事項とする)</li>
+<li>運用ワークフロー(確認・対応中・解決等のインシデント管理機能)(v1では対応しない。診断結果を人間のチームが引き継いで管理する仕組みは対象外とする)</li>
+<li>人間可読なレポート生成(v1はJSON/Protobufの構造化出力(F-07)までを提供し、非技術者向けのサマリーレポート生成は対象外とする)</li>
+<li>履歴調査UI(過去データを人間が閲覧・検索するための専用UI)(時系列データ自体はF-08/F-10で蓄積・抽象化されるが、v1ではRCA(F-09)による内部的な読み出しのみで、人間向けの閲覧UIは提供しない)</li>
+</ul>
+<hr />
+<h2 id="9">9. 制約条件・前提条件<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<ul>
+<li>コアアーキテクチャ原則(完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシー)は明文化されており、すべての機能要件・非機能要件はこの原則に照らして検証される</li>
+<li>日本企業向け市場を最初のターゲットとし、他市場への展開はその後とする</li>
+<li>法務・コンプライアンスは、OSSライセンス選定、依存関係のライセンス監査、不正使用報告窓口、ToS/免責文言、サポート・信頼性コミットメントを早期から並行して進める。公開する前には商標調査・法人化・制裁リスト地理制限確認・専門家による法務レビューを必須ゲートとする</li>
+<li>一人開発であることに起因し、サポート・保守体制は現実的に負える範囲に限定する</li>
+<li>AI機能を実装する場合は私物利用の方式とし、アプリの役割はコンテキスト組み立てのみに限定する。コスト・精度・データ取り扱いリスクはユーザーが選択したモデル側に帰属する</li>
+<li>バックアップ・リカバリはユーザー自身の責任とする。完全ローカルと私物利用の方式の原則により、時系列バックエンド(TimescaleDB等)のバックアップ運用はアプリ側では提供せず、ユーザー自身のデータベース運用に委ねる</li>
+<li>スキーマ・アップグレード時の互換性方針は本書時点では未定。将来バージョンでデータスキーマが変更される場合の移行方針は別途検討する</li>
+</ul>
+<hr />
+<h2 id="10">10. 成功基準・完了の定義<a class="headerlink" href="#10" title="Permanent link">&para;</a></h2>
+<p>v1として「完成」と呼べる状態を、以下の基準で定義する(暫定、実装・検証を通じて見直す前提):</p>
+<ul>
+<li>必須優先度の機能要件(F-01, F-02, F-03, F-04, F-06, F-07, F-08, F-11)が、実際のネットワーク対象に対して動作し、それぞれ定義された結果状態を正しく区別して返すこと(例: F-04は無応答/NXDOMAIN/SERVFAIL/不一致を区別、F-06は閾値超過と到達不能を区別)</li>
+<li>F-07の構造化出力(JSON/Protobuf)がスキーマに対して検証可能であること</li>
+<li>F-11のハイブリッドスケジューリング(常駐デーモンモード・one-shotモード双方)が同一の時系列ストアに書き込み、N-12の初期ベンチマーク目標(数百ホスト規模・設定可能なポーリング間隔)を満たすこと</li>
+<li>N-10のエラーハンドリング要件どおり、対象到達不能時に例外が握りつぶされず構造化された「到達不能」結果として記録されること</li>
+<li>日本企業のネットワーク/インフラ担当者が、本ツールを用いて内部インフラの検知・診断(何が起きたか、機械可読な構造化結果としてどう検出されたか)を行える状態にあること。ただし、アラート通知・可視化・運用ワークフロー・人間可読レポート・履歴調査UI(8章参照)はv1のスコープ外であり、これらは外部ツールとの組み合わせ、または将来バージョンでの対応を前提とする</li>
+<li>F-04/F-05/F-06の結果が共通の相関キー(対象識別子・タイムスタンプ・ネットワークセグメント等)で記録され、同一対象・近接時間帯に発生した複数チェックの結果を突き合わせられること(相関キーの記録自体は必須優先度のF-04/F-06に含まれるため検証対象とする。ただしF-09のRCA、およびそれに依存するN-15は、v1完成基準には含めない)</li>
+<li>N-16のデータ保持・プルーニングポリシーどおり、設定した保持期間を超えた時系列データが自動的にプルーニングされることを確認すること(F-11の常駐デーモンモードが必須優先度であるため、長期稼働時のストレージ肥大化防止は検証対象とする)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="フッター" >
+        
+          
+          <a href="./.." class="md-footer__link md-footer__link--prev" aria-label="前: Home">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                前
+              </span>
+              <div class="md-ellipsis">
+                Home
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%96%B9%E5%BC%8F%E8%A8%AD%E8%A8%88%E6%9B%B8/" class="md-footer__link md-footer__link--next" aria-label="次: システム方式設計書">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                次
+              </span>
+              <div class="md-ellipsis">
+                システム方式設計書
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-right" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"redirect":null,"search":"../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"コピーしました","clipboard.copy":"クリップボードへコピー","search.result.more.one":"このページ内にもう1件見つかりました","search.result.more.other":"このページ内にあと#件見つかりました","search.result.none":"何も見つかりませんでした","search.result.one":"1件見つかりました","search.result.other":"#件見つかりました","search.result.placeholder":"検索キーワードを入力してください","search.result.term.missing":"検索に含まれない","select.version":"バージョン切り替え"},"version":null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.8dcc8e9c.min.js"></script>
+      
+    
+  </body>
+</html>

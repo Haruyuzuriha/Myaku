@@ -1,0 +1,1001 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://www.example.com/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E8%A8%AD%E8%A8%88/%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E6%96%B9%E5%BC%8F%E8%A8%AD%E8%A8%88%E6%9B%B8/">
+      
+      
+        <link rel="prev" href="../../%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E6%9B%B8/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.62">
+    
+    
+      
+        <title>システム方式設計書 - プロジェクト名をここに</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../assets/stylesheets/modern/main.ce62732f.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/modern/palette.812a03bb.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-label="ナビゲーション"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="../.." title="プロジェクト名をここに" class="md-header__button md-logo" aria-label="プロジェクト名をここに" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer" aria-label="ナビゲーション">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            プロジェクト名をここに
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              システム方式設計書
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun-moon" viewBox="0 0 24 24"><path d="M12 2v2M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715M16 12a4 4 0 0 0-4-4M19 5l-1.256 1.256M20 12h2"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search" aria-label="検索">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="検索">
+  <button type="button" class="md-search__button">
+    検索
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="プロジェクト名をここに" class="md-nav__button md-logo" aria-label="プロジェクト名をここに" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    プロジェクト名をここに
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-rocket" viewBox="0 0 24 24"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"/><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E6%9B%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  要件定義書
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  システム設計
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+  システム設計
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  システム方式設計書
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  システム方式設計書
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 要件の3分類
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. システム全体構成
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. ハードウェア構成(実行環境)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. ソフトウェア構成(システムレベル)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. ネットワーク構成
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. 外部インターフェース
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. 非機能要件のシステム方式への反映
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        未確定事項
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        1. 要件の3分類
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        2. システム全体構成
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        3. ハードウェア構成(実行環境)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        4. ソフトウェア構成(システムレベル)
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        5. ネットワーク構成
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        6. 外部インターフェース
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        7. 非機能要件のシステム方式への反映
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        未確定事項
+      </span>
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="ナビゲーション" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-path__item">
+        <a href="././" class="md-path__link">
+          
+  
+  <span class="md-ellipsis">
+    システム設計
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="_1">システム方式設計書<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p><strong>プロジェクト名</strong>: (未定)
+<strong>版数</strong>: v0.1 (ドラフト)
+<strong>位置づけ</strong>: 要件定義書の内容を、システムレベルのアーキテクチャとして構造化・図示する文書。ロードマップ(M0-M11)への言及は含めない。</p>
+<hr />
+<h2 id="1-3">1. 要件の3分類<a class="headerlink" href="#1-3" title="Permanent link">&para;</a></h2>
+<p>本システムは、外部の物理ネットワーク機器・クラウド環境を<strong>監視・診断する側</strong>のソフトウェアであり、独自のハードウェアを必要としない。</p>
+<table>
+<thead>
+<tr>
+<th>分類</th>
+<th>該当内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ソフトウェア</td>
+<td>本システムの全機能(スキャンエンジン、RCAエンジン、データ取り込み層、UI/APIなど)</td>
+</tr>
+<tr>
+<td>ハードウェア</td>
+<td>該当なし(ユーザー自身が用意する汎用サーバ/PC上で動作する)</td>
+</tr>
+<tr>
+<td>手作業</td>
+<td>該当なし(バックアップの実施など、要件定義書上でユーザー責任と明記した項目を除き、手作業として切り出す要件はない)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>手作業に分類される要件がないことは省略ではなく明示的な結論である。バックアップ・リカバリはユーザー自身の責任とする方針(要件定義書 制約条件を参照)であり、これは「システムが実施しない手作業」ではなく「システムの責任範囲外」として扱う。</p>
+</blockquote>
+<hr />
+<h2 id="2">2. システム全体構成<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<pre class="mermaid"><code>graph TB
+    subgraph "ユーザー環境(ローカル、単一信頼ユーザー)"
+        UI[UI / ヘッドレスAPI]
+        Engine[スキャン・ポーリングエンジン]
+        RCA[RCAエンジン&lt;br/&gt;決定論的ルール+相関キー]
+        Ingest[データ取り込み抽象化層&lt;br/&gt;ingestion-source abstraction]
+        QueryAbs[時系列クエリ抽象化層]
+        TSDB[(時系列ストア&lt;br/&gt;TimescaleDB等)]
+        Keychain[OSネイティブキーチェーン&lt;br/&gt;+暗号化ファイルフォールバック]
+    end
+
+    subgraph "監視対象(外部)"
+        Net[ネットワーク機器&lt;br/&gt;SNMP/ICMP/DNS/DHCP/NTP]
+        Cloud[ユーザー自身のクラウドストレージ&lt;br/&gt;フローログ読み取りのみ]
+    end
+
+    subgraph "外部連携(オプトイン)"
+        Notify[Webhook/Slack/Teams/&lt;br/&gt;PagerDuty/Opsgenie]
+    end
+
+    UI --&gt; Engine
+    Engine --&gt; Ingest
+    Ingest --&gt;|ポーリング/読み取りのみ| Net
+    Ingest --&gt;|読み取りのみ| Cloud
+    Ingest --&gt; TSDB
+    QueryAbs --&gt; TSDB
+    RCA --&gt; QueryAbs
+    RCA --&gt; Notify
+    Engine --&gt; Keychain
+
+    style Cloud stroke-dasharray: 5 5
+    style Net stroke-dasharray: 5 5</code></pre>
+<p><strong>設計原則(要件定義書より継承)</strong>:
+- 完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシーを徹底する。本システムからベンダークラウドへテレメトリを送信する経路は存在しない。
+- クラウドテレメトリ取り込みは、ユーザー自身が管理するストレージからフローログ等を読み取るのみで、本システム側にクラウドインフラの運用責任は発生しない。
+- 外部連携(通知)はすべてオプトインであり、既定では無効。</p>
+<hr />
+<h2 id="3">3. ハードウェア構成(実行環境)<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>独自ハードウェアは存在しないため、本節は<strong>デプロイ・実行環境要件</strong>として扱う。</p>
+<table>
+<thead>
+<tr>
+<th>項目</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>対応OS</td>
+<td>Linux・Windows・macOS(すべて正式サポート)</td>
+</tr>
+<tr>
+<td>実行基盤</td>
+<td>JVM前提(v1時点ではネイティブバイナリ非対応)</td>
+</tr>
+<tr>
+<td>パッケージング形式</td>
+<td>署名付きJAR</td>
+</tr>
+<tr>
+<td>動作形態</td>
+<td>常駐デーモンモード / one-shotモードの両対応(同一スケジューリングエンジン・同一時系列ストアを使用)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4">4. ソフトウェア構成(システムレベル)<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<p>内部モジュール分割(STS/TR分割など)は次工程のソフトウェア方式設計で扱う。本節ではシステムを構成する主要コンポーネントのみを列挙する。</p>
+<table>
+<thead>
+<tr>
+<th>コンポーネント</th>
+<th>役割</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>スキャン・ポーリングエンジン</td>
+<td>ICMP/SNMP(v1/v3選択式)ポーリング、DNS/DHCP/NTP検証を実施</td>
+</tr>
+<tr>
+<td>データ取り込み抽象化層</td>
+<td>ポーリング方式(F-11)を現行実装としつつ、将来のstreaming telemetry等push型収集を再設計なしで追加可能にする</td>
+</tr>
+<tr>
+<td>時系列ストア</td>
+<td>TimescaleDBを既定(デフォルト)バックエンドとする</td>
+</tr>
+<tr>
+<td>時系列クエリ抽象化層</td>
+<td>InfluxQL/PromQL/Graphite等を直接叩かず、内部クエリ抽象化層経由でアクセス。将来的な複数バックエンド対応の前提となる</td>
+</tr>
+<tr>
+<td>RCAエンジン</td>
+<td>決定論的ルールベース。相関キー(対象識別子・タイムスタンプ・ネットワークセグメント等)によりF-04/F-05/F-06の観測データを横断的に関連付け、診断プロセスの可視性を確保する</td>
+</tr>
+<tr>
+<td>UI / ヘッドレスAPI</td>
+<td>JavaFX UIモードとヘッドレス/サーバーモード+Webダッシュボードの両対応</td>
+</tr>
+<tr>
+<td>認証情報ストア</td>
+<td>OSネイティブキーチェーン優先、暗号化ファイルへのフォールバック</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="5">5. ネットワーク構成<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p><strong>通信の方向性は明確に非対称である</strong>:</p>
+<ul>
+<li><strong>アウトバウンド(本システム→外部)</strong>: 監視対象へのポーリング(ICMP/SNMP/DNS/DHCP/NTP)、オプトイン時のみ通知連携(Webhook/Slack等)。</li>
+<li><strong>本システムが行わない通信</strong>: ベンダークラウドサービスへのテレメトリ送信、ユーザーの同意なきデータ送信は一切存在しない。</li>
+</ul>
+<p>クラウドテレメトリ取り込みは「本システムがクラウドにアクセスする」のではなく「ユーザーが自分のクラウドストレージから出力したフローログを、本システムが読み取る」形であり、本システム自体はクラウドインフラを保有・運用しない。</p>
+<hr />
+<h2 id="6">6. 外部インターフェース<a class="headerlink" href="#6" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>インターフェース</th>
+<th>方式・備考</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>通知連携</td>
+<td>Webhook / Slack / Teams / PagerDuty / Opsgenie(すべてオプトイン、既定で無効)</td>
+</tr>
+<tr>
+<td>時系列バックエンド</td>
+<td>内部クエリ抽象化層経由。マルチバックエンド対応を公に謳う前提として、TimescaleDBとPrometheus等、最低2バックエンドでの検証を条件とする</td>
+</tr>
+<tr>
+<td>認証情報アクセス</td>
+<td>OSキーチェーンAPI</td>
+</tr>
+<tr>
+<td>クラウドストレージ読み取り</td>
+<td>ユーザー自身のAWS/Azure/GCPストレージからフローログを読み取り専用でアクセス</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7">7. 非機能要件のシステム方式への反映<a class="headerlink" href="#7" title="Permanent link">&para;</a></h2>
+<p>要件定義書の非機能要件を、アーキテクチャ上の決定として明示する。</p>
+<table>
+<thead>
+<tr>
+<th>非機能要件(要件定義書)</th>
+<th>システム方式設計での反映</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>データ保持・プルーニング(既定90日)</td>
+<td>時系列ストア側のプルーニングポリシーとして実装。時系列クエリ抽象化層はプルーニング後のデータ欠落を前提に設計する</td>
+</tr>
+<tr>
+<td>ローカルアクセス制御(v1は単一信頼ユーザー・認証機構なし)</td>
+<td>システム全体構成において、複数ユーザー・RBACを前提としたコンポーネント分離は行わない。ただしデータモデルは将来のワークスペース概念に対応できるよう内部的に開いておく</td>
+</tr>
+<tr>
+<td>バックアップ・リカバリはユーザー責任</td>
+<td>システムはバックアップ機構を持たない。データ配置(TimescaleDBのデータディレクトリ等)を明確にドキュメント化することで、ユーザーが自身の手段でバックアップを行えるようにする</td>
+</tr>
+<tr>
+<td>完全ローカル / クラウドサービス不要 / 私物利用の方式 / 読み取り専用ポリシー</td>
+<td>本書2節・5節のアーキテクチャ図・通信方向性として明示</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="_2">未確定事項<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Spring Boot対応の範囲(M7のWeb/APIシェルのみか、コアロジックにも及ぶか)は未決定であり、本書では反映していない。要件の洗い出しブレインストーミング後に改訂する。</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="フッター" >
+        
+          
+          <a href="../../%E8%A6%81%E4%BB%B6%E5%AE%9A%E7%BE%A9%E6%9B%B8/" class="md-footer__link md-footer__link--prev" aria-label="前: 要件定義書">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M19 12H5"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                前
+              </span>
+              <div class="md-ellipsis">
+                要件定義書
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.top","navigation.tracking","search.highlight"],"redirect":null,"search":"../../assets/javascripts/workers/search.7d14d953.min.js","tags":null,"translations":{"clipboard.copied":"コピーしました","clipboard.copy":"クリップボードへコピー","search.result.more.one":"このページ内にもう1件見つかりました","search.result.more.other":"このページ内にあと#件見つかりました","search.result.none":"何も見つかりませんでした","search.result.one":"1件見つかりました","search.result.other":"#件見つかりました","search.result.placeholder":"検索キーワードを入力してください","search.result.term.missing":"検索に含まれない","select.version":"バージョン切り替え"},"version":null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8dcc8e9c.min.js"></script>
+      
+    
+  </body>
+</html>
