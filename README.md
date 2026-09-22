@@ -29,7 +29,7 @@ Myaku polls and correlates signals across your network to answer one question fa
 - Tactical utilities: throughput generation, IPAM, PCAP capture, visual BGP/ASN traceroute
 - Optional AI layer (bring-your-own-model, for historical trend analysis only — never in the active detection or remediation path)
 
-See the [roadmap](#) for the full milestone breakdown (M0–M11).
+See the [roadmap](#ROADMAP.md) for the full milestone breakdown (M0–M11).
 
 ## Status
 
